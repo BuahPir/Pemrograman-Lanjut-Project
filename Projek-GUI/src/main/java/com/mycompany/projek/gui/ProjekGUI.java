@@ -26,12 +26,5 @@ public class ProjekGUI {
         
         System.out.print("Masukkan tinggi balok :");
         tinggi = console.nextFloat();
-        
-        if (panjang == 0 || lebar == 0 || tinggi == 0) {
-            System.out.println("Input keliru! Nilai input tidak boleh nol");
-        } else {
-            System.out.print("Volume balok adalah ");
-            System.out.print(volumeBalok(panjang,lebar,tinggi));
-        }
     }
 }
